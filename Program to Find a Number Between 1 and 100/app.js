@@ -12,9 +12,7 @@ button.addEventListener("click", (event) => {
     const inputValue = input.value.trim();
     if (!inputValue) {
         alert("Fill in the input");
-    } else if (isNaN(inputValue)) {
-        alert("Input must be a number");
-    } else if (inputValue > 100 || inputValue < 0) {
+    }else if (inputValue > 100 || inputValue < 0) {
         alert("Write numbers smaller than 100");
     } else {
         count++;
